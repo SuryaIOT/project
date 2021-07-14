@@ -1,0 +1,297 @@
+8<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta content="projects" />
+
+<meta discription="different types of  projects " />
+
+<meta name="home automation using DHT11" />
+
+<meta keyword="arduino, home automation, internet of things, WIFI router" />
+
+
+
+<meta caption="home automation" />
+
+
+<title>suresh</title>
+
+<script src="jquary.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="lib web/jquery-ui.css" rel="stylesheet" />
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<script src="lib web/jquery-ui.js"></script>
+
+
+<style>
+.navbar-default{font-weight:bold;padding-top:15px;padding-bottom:15px;border:0;margin-radius:0;font-size:16px;letter-spacing:4}
+.navbar.nav li a:hover{color:#FF3300;}
+.nav-right{margin-left:40%}
+
+.about{background-color: #66CCFF}
+
+ .se{transition:1.5s}
+ .se:hover{ transform:scale(1.2); color:#FF6633}
+
+ .team{transition:1.5s}
+ .team:hover{ transform:scale(1.2)}
+ #team:hover{ color:#3366FF}
+ td{ color:#ffffff}
+ #contact{ background-color:#000000}
+ #name:hover{ background-color:#00CCFF;}
+  td:hover{ color:#000000;}
+  #contact{ background-color:#FFFFFF}
+  .address{ background-color:#000000}
+ 
+
+ 
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<!--nav open-->
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<button class="navbar-toggle bt" data-toggle="collapse" data-target="#archonz">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button>
+
+
+</div>
+<div class="collapse navbar-collapse" id="archonz">
+<ul class="nav navbar-nav nav-right">
+<li id="menu"><a href="suresh1.html">HOME</a></li>
+<li  id="menu"><a href="suresh1.html">ABOUT US</a></li>
+<li  id="menu"><a href="suresh1.html">PROJECTS</a></li>
+<li  id="features"><a href="#">FEATURES</a></li>
+
+<li  id="us"><a href="#">CONTACT US</a></li>
+</ul></div></nav>
+<!--nav end-->
+<!-- contact us-->
+ <div class="container-fluid text-center margin" id="contact" style="display:none;">
+ <div class="container">
+  <h2>Contact form</h2>
+  <form >
+    <div class="form-group">
+     <h4 align="left"> <label for="name">Name:</label></h4>
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="name">
+    </div>
+    <div class="form-group">
+      <h4 align="left"><label for="email">Email:</label><h4>
+      <input type="email" class="form-control" id="pwd" placeholder="Enter password" name="email">
+    </div>
+    <div class="form-group">
+    <h4 align="left"><label for="message">Message:</label></h4>
+    <textarea class="form-control" placeholder="Enter message" type="text" rows="8" name="message"></textarea></div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" onclick="enter()"> Submit</button>
+  </form>
+</div>
+
+
+ <br /><br /><br />
+ </div>
+ <!-- end contact us-->
+<div class="container-fluid about" >
+<h1 align="center" style=" text-shadow: 2px 1px #999999">Home automation using DHT11 interfacing with ESP32 & Blink App </h1>   
+    
+    
+    
+    </div><br /><br />
+    <div class="container-fluid" > <h3 align="left" style=" text-shadow: 2px 1px #999999">Abstract: </h3>
+    
+  <p> In this project, a design is proposed by using ESP32 and Temperature and Humidity (DTH11) sensor for Detecting the temperature and humidity, automation of lights and fans using Arduino with Internet of Things for smart homes. Nowadays we’re having automation of every little electrical device in our homes. Internet of Things is the concept of basically connecting any device with an on and off switch to the internet. IOT is more than smart homes and connected appliances; however, it scales up to include smart cities with connected sensors. Using Temperature sensors, the lights will automatically turn on and off according to the intensity of light. Temperature sensors will detect the room temperature and turn on and off fans and also that data is uploaded to the cloud to operate in anywhere by using the Blink app it is a cloud. Keywords: Arduino, Ethernet, Home Automation, Internet of Things, WiFi Router </p></div>
+   
+   <div class="container-fluid"><h3 align="left" style=" text-shadow: 2px 1px #999999">Introduction:</h3><p> These days, the web need ended up  a  normal interface that a significant number of gadgets use in place will improve the everyday life about numerous individuals. Web aides us to get quick result for huge number of issues capable to interface starting  with any of the remote spots which contributes with general expense decrease furthermore vitality utilization. Home mechanization might make portrayed as introduction for innovation organization in the home environment which provides straight forwardness which is more secure with its occupants. Towards utilizing the innovation of web for Things, those examinations .Furthermore execution about home mechanization have got extra Normal. Different remote advances which has the capacity to help some sort of remote information transfer, sensing also management like Bluetooth, Wi-Fi and other cell division networks would be used to enter abundant levels for discernment inside the the human body presence, those lights and fans will turn on/off. Those temperature sensor need aid associated with the Arduino Uno. By utilizing a Blink app it will stores the data and also operates the fan and light by using temperature and humidity. The suggested framework may be a greater amount efficient, settled also expense compelling. That Arduino customer in the app sends an blink appeal on arduino that runs the blink app like a cloud. The thought will be that those smartphones sends an blink of the arduino. Those  temperature sensor will be utilized to detect the temperature and humidity by that temperature and humidity the automatically lights and fans will ON and OFF.
+ Hardware: In this project we used the hardware and software components as describe in the below. The hardware components are 1. Temperature & Humidity sensor (DHT11) 2. Four pin relay module 3. ESP32 module </p>
+ 
+ <h3 align="left" style=" text-shadow: 2px 1px #999999">Temperature and Humidity Sensor (DHT11):- </h3>
+ 
+<p>This DHT11 Temperature and Humidity Sensor features a calibrated digital signal output with the temperature and humidity sensor capability. It is integrated with a high-performance 8-bit microcontroller. Its technology ensures the high reliability and excellent long-term stability.  This sensor includes a resistive element and a sensor for wet NTC temperature measuring devices. It has excellent quality, fast response, anti-interference ability and high performance.</p> </div>
+ <div align="center" class=" col-sm-12"><a href="img/img1.jpg"><img  src="img/img1.jpg" /></a>
+ <h4 >DHT11 Temperature and Humidity Sensor </h4></div>
+
+<div class="container-fluid">
+
+ <b>Specification: </b>
+<ul type="disc"> <li>Supply Voltage: +5 V</li>
+<li> Temperature range :0-50 °C error of ± 2 °C </li><li> Humidity :20-90% RH ± 5% RH error </li><li> Interface: Digital</li></ul> 
+
+<h3 align="left" style=" text-shadow: 2px 1px #999999">Four pin relay module: </h3> 
+
+A relay is an electromagnetic switch operated by a relatively small electric current that can turn on or off a much larger electric current. The heart of a relay is an electromagnet (a coil of wire that becomes a temporary magnet when electricity flows through it). You can think of a relay as a kind of electric lever: switch it on with a tiny current and it switches on ("leverages") another appliance using a much bigger current. Why is that useful? As the name suggests, many sensors are incredibly sensitive pieces of electronic equipment and produce only small electric currents. But often we need them to drive bigger pieces of apparatus that use bigger currents. Relays bridge the gap, making it possible for small currents to activate larger ones. That means relays can work either as switches (turning things on and off) or as amplifiers (converting small currents into larger ones). 
+<div align="center" class=" col-sm-12"><a href="img/img2.jpg"><img src="img/img2.jpg" height="300" width="400" /></a>
+<h4>Relay module </h4></div> </div><br /><br />
+                                   
+ 
+<h3 align="left" style=" text-shadow: 2px 1px #999999">ESP32Module:</h3> 
+                                                                                                   <div class=" container-fluid">ESP32 iss a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth. The ESP32 series employs a Tensilica Xtensa LX6 microprocessor in both dual-core and single-core variations and includes in-built antenna switches, RF balun, power amplifier, low-noise receive amplifier, filters, and powermanagement modules. ESP32 is created and developed by Espressif Systems, a Shanghaibased Chinese company, and is manufactured by TSMC using their 40 nm process.[2] It is a successor to the ESP8266 microcontroller.<br /><br />
+<div align="center" class=" col-lg-12"><a href="img/img3.jpg"><img src="img/img3.jpg"  height="300" width="400"/></a></div></div>
+
+<div class=" container-fluid"><h4 align="left"  style=" text-shadow: 2px 1px #999999"><b>Features: </b></h4>
+<ul type="disc"> <li>Processors: <ul type="circle"><li> CPU: Xtensa dual-core (or single-core) 32-bit LX6 microprocessor, operating at 160 or 240 MHz and performing at up to 600 DMIPS </li><li>Ultra low power (ULP) co-processor</li></ul><li> Memory: 520 KiB SRAM </li><li>Wireless connectivity: <ul type="circle"><li> Wi-Fi: 802.11 b/g/n o</li><li>Bluetooth: v4.2 BR/EDR and BLE </li></ul><li> Peripheral interfaces: <ul type="circle"><li> 12-bit SAR ADC up to 18 channels </li><li> 2 × 8-bit DACs </li><li> 10 × touch sensors (capacitive sensing GPIOs) </li><li> 4 × SPI </li><li> 2 × I²S interfaces </li><li>2 × I²C interfaces </li><li> 3 × UART </li><li> SDIO/SPI slave controller </li><li> Ethernet MAC interface with dedicated DMA and IEEE 1588 Precision Time Protocol support </li><li> CAN bus 2.0 </li><li> Infrared remote controller (TX/RX, up to 8 channels) </li><li> Motor PWM </li><li> LED PWM (up to 16 channels) </li><li>Hall effect sensor </li><li> Ultra low power analog pre-amplifier </li></ul></li><li> Security:<ul type="circle"><li>  IEEE 802.11 standard security features all supported, including WFA, WPA/WPA2 and WAPI </li><li> Secure boot 
+   
+   </li><li>Flash encryption  </li><li> 1024-bit OTP, up to 768-bit for customers  </li><li> Cryptographichardware acceleration: AES, SHA-2, RSA, elliptic curve cryptography (ECC), random number generator (RNG)</li></ul><li> Power management: <ul type="circle"><li> Internal low-dropout regulator  </li><li>Individual power domain for RTC  </li><li> 5μA deep sleep current o </li><li>Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt </li></ul>
+   </li></li></li></li></ul></div>
+   
+
+<h4 align="left"  style=" text-shadow: 2px 1px #999999"><b>Specifications:</b></h4>
+
+  <table border="3" align="center" style=" width:100%">
+ <tr><th><center>Parameter</center></th><th><center>symbol</center></th><th><center>min</center></th><th><center>max</center></th><th> <center>unit</center></th></tr>
+ 
+ <tr><th><center>Input low voltage </center></th><th><center>VIL</center></th><th><center>-0.3 </center></th><th><center>0.25×VIO</center></th><th><center>V</center></th></tr>
+ 
+ <<tr><th><center>Input high voltage </center></th><th><center>VIH</center></th><th><center>0.75×VI</center></th><th><center>3.3</center></th><th><center>V</center></th></tr>
+ 
+ <tr><th><center>     Input leakage current </center></th><th><center>IIL</center></th><th><center>-</center></th><th><center>50</center></th><th><center>nA</center></th></tr>
+ 
+ <tr><th><center>Output low voltage </center></th><th><center>VOL</center></th><th><center>-</center></th><th><center>0.1×VIO</center></th><th><center>V</center></th></tr>
+ 
+ <tr><th><center>Output high voltage </center></th><th><center>VOH</center></th><th><center>0.8×VIO</center></th><th><center>-</center></th><th><center>V</center></th></tr>
+ 
+ <tr><th><center>  Input pin capacitance </center></th><th><center>Cpad</center></th><th><center></center></th><th><center>2</center></th><th><center>pF </center></th></tr>
+ 
+ <tr><th><center>VDDIO</center></th><th><center>VIO</center></th><th><center>1.8</center></th><th><center>33</center></th><th><center>V</center></th></tr>
+ 
+ <tr><th><center> Maximum drive capability </center></th><th><center>IMAX</center></th><th><center></center></th><th><center>12</center></th><th><center>mA</center></th></tr>
+ 
+ <tr><th><center> Storage temperature range </center></th><th><center>TSTR</center></th><th><center>-40</center></th><th><center>150</center></th><th><center>°C</center></th></tr></table>
+   
+   <div class=" container-fluid"><h3 align="left"  style=" text-shadow: 2px 1px #999999">Arduino IDE:</h3>
+<p>The<b> Arduino integrated development environment (IDE)</b> is a cross-platform application (for Windows, macOS, Linux) that is written in the programming language Java. It is used to write and upload programs to Arduino compatible boards, but also, with the help of 3rd party cores, other vendor development boards.  <br />The source code for the IDE is released under the GNU General Public License, version 2. The Arduino IDE supports the languages C and C++ using special rules of code structuring. The Arduino IDE supplies a software library from the Wiring project, which provides many common input and output procedures. User-written code only requires two basic functions, for starting the sketch and the main program loop, that are compiled and linked with a program stub main() into an executable cyclic executive program with the GNU toolchain, also included with the IDE distribution.[5] The Arduino IDE employs the program avrdude to convert the executable code into a text file in hexadecimal encoding that is loaded into the Arduino board by a loader program in the board's firmware.</p>
+
+
+<b>Blynk: </b>
+ 
+<p>Blynk was designed for the Internet of Things. It can control hardware remotely, it can display sensor data, it can store data, vizualize it and do many other cool things. There are three major components in the platform:</p><ul type="disc"><li>  Blynk App - allows to you create amazing interfaces for your projects using various widgets we provide.</li><li>  Blynk Server - responsible for all the communications between the smartphone and hardware. You can use our Blynk Cloud or run your private Blynk server locally. It’s opensource, could easily handle thousands of devices and can even be launched on a Raspberry Pi.</li> <li> Blynk Libraries - for all the popular hardware platforms - enable communication with the server and process all the incoming and outcoming commands.</li>
+</ul></div>
+<div class=" container-fluid">
+ 
+<h3 align="left"  style=" text-shadow: 2px 1px #999999"><b>Block Diagram:</b></h3>
+
+<div align="center" class=" col-lg-12"><a href="img/img4.jpg"><img src="img/img4.jpg"  height="400" width="100%"/></a></div>
+
+
+
+<h3 align="left"  style=" text-shadow: 2px 1px #999999"><b>Pin connection:- </b></h3>
+                           
+ 
+ <div align="center" class=" col-lg-12"><a href="img/img5.jpg"><img src="img/img5.jpg"  height="400" width="100%"/></a></div>
+
+ 
+<h3 align="left"  style=" text-shadow: 2px 1px #999999">Work Flow:- </h3>
+
+<div class=" container-fluid">
+To install the ESP32 board in your Arduino IDE, follow these next instructions: 
+<h5>1. In your Arduino IDE, go to<b> File> Preferences </b></h5>
+ <div align="center" class=" col-lg-12"><a href="img/img6.jpg"><img src="img/img6.jpg"  height="400" width="300"/></a></div>
+
+<h5>2. Enter <b> https://dl.espressif.com/dl/package_esp32_index.json </b>into the “Additional Board Manager URLs” field as shown in the figure below. Then, click the “OK” button: </h5>
+ <div align="center" class=" col-lg-12"><a href="img/img7.jpg"><img src="img/img7.jpg"  height="400" width="300"/></a></div>
+
+ 
+<p><b>Note:</b> if you already have the ESP8266 boards URL, you can separate the URLs with a comma as follows:</p>
+ 
+<h5>https://dl.espressif.com/dl/package_esp32_index.json,</h5><h5> http://arduino.esp8266.com/stable/package_esp8266com_index.json</h5> 
+<h5>3.Open the Boards Manager. Go to<b> Tools > Board > Boards Manager…</b> </h5>
+  <div align="center" class=" col-lg-12"><a href="img/img8.jpg"><img src="img/img8.jpg"  height="400" width="300"/></a></div>
+
+ 
+ 
+<h5>4.Search for <b>ESP32</b> and press install button for the <b>“ESP32 by Espressif Systems“:</b> </h5>
+  <div align="center" class=" col-lg-12"><a href="img/img9.jpg"><img src="img/img9.jpg"  height="300" width="100%"/></a></div>
+
+ 
+<h5>5.That’s it. It should be installed after a few seconds.</h5>
+ <div align="center" class=" col-lg-12"><a href="img/img10.jpg"><img src="img/img10.jpg"  height="300" width="100%"/></a></div>
+
+ </div>
+ <div class=" container-fluid">
+<h3 align="left"  style=" text-shadow: 2px 1px #999999">Testing the Installation </h3>
+<h5>Plug the ESP32 board to your computer. With your Arduino IDE open, follow these steps:</h5> 
+<h5>1. Select your Board in <b>Tools > Board </b>menu (in my case it’s the<b> DOIT ESP32 DEVKIT V1</b>)</h5> 
+ 
+ 
+ 
+ <div align="center" class=" col-lg-12"><a href="img/im11.jpg"><img src="img/img11.jpg"  height="300" width="100%"/></a></div>
+<h5>2. Select the Port (if you don’t see the COM Port in your Arduino IDE, you need to install the CP210x USB to UART Bridge VCP Drivers): </h5>
+ <div align="center" class=" col-lg-12"><a href="img/img12.jpg"><img src="img/img12.jpg"  height="200" width="200"/></a></div>
+ 
+ 
+<h5>3. Take New file copy the code and compile it.</h5><h5> 4. After successful compilation of code upload it. </h5><h5>5. Open Serial monitor There we can see our output values.</h5> </div>
+<div class="container-fluid"> 
+<h3 align="left"  style=" text-shadow: 2px 1px #999999">Configuring Blynk App:- </h3>
+ 
+        
+ <div align="center" class=" col-lg-12"><a href="img/img13.jpg"><img src="img/img13.jpg"  height="500" width="300"/></a></div>
+ <div align="center" class=" col-lg-12"><a href="img/img14.jpg"><img src="img/img14.jpg"  height="500" width="300"/></a></div>
+   
+ 
+<h5>1. Install the Blynk app from Play store.</h5><h5> 2. Login With Email Id and a terminal as shown in above fig 1 is displayed select required/suitable widget from the list as shown fig 3.</h5><h5> 3. Open widget and configure it with required data fields. </h5><h5>4. Finally upload the code on Arduino and click play button on Blynk app then sensed data is displayed as shown below output.</h5>
+
+
+<h3 align="left"  style=" text-shadow: 2px 1px #999999"> Result Output:-</h3> 
+ <div align="center" class=" col-lg-12"><a href="img/img15.jpg"><img src="img/img15.jpg"  height="500" width="300"/></a></div>
+ 
+ 
+<h3 align="left"  style=" text-shadow: 2px 1px #999999">Conclusion: -  </h3><ul  type="circle"><li> Real time Temperature and Humidity values are uploaded to Blynk cloud and visualized in Blynk App. </li><li> If Temperature is more than 25℃ Then fan will automatically turned ON and if it is less than 25℃ then fan will automatically turned OFF. </li><li> We will have virtual control over home appliances via Blynk App. (We can turn On and OFF home appliances using Blynk App.) </li></ul> </div></div>
+
+
+
+
+<!--contact-->
+ 
+ 
+ 
+ <div class="container-fluid text-center margin address"  id="contact me" >
+ 
+ <div class="container text-center">
+ <font color="#ffffff"><h2 style="text-shadow: 2px 1px #9922ff;">contact us</h2><br />
+ <table class="table">
+ <tbody>
+ <tr id="name"><td>company</td><td>Sureshs Projects Pvt.Ltd</td></tr>
+ <tr id="name"><td>Mail.id</td><td>suresh.sam.241@gmail.com</td></tr>
+ <tr id="name"><td>Mobile number</td><td>7794854541</td></tr>
+ <tr id="name"><td>Address</td><td>Plot no 246/A, VBR Estates,<br />
+ Flat no 302,street no 11,<br />
+ Sreenivasa Nagar,HMT Hills Road, Addagutta Scocitey,<br />
+Kukatpally, Hyderabad,<br />
+Telangana-5000085.</td></tr>
+
+
+ <tr id="name"><td>Domain</td><td>www.suresh projects.co.in</td></tr></tbody></table></font></div></div>
+ <!--contact end-->
+
+
+ 
+<!--FOTER-->
+
+<div class="footer-copyright" style="background-color:#330099">
+
+<div  col-md-12><center><a href="#home">All copy rights@swapna2020</a></center></div>
+</div>
+
+
+</body>
+</html>

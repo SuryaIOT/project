@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta content="projects" />
+
+<meta discription="different types of  projects " />
+
+<meta name="home automation using DHT11" />
+
+<meta keyword="arduino, home automation, internet of things, WIFI router" />
+
+
+
+<meta caption="home automation" />
+
+
+<title>suresh</title>
+
+<script src="jquary.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="lib web/jquery-ui.css" rel="stylesheet" />
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<script src="lib web/jquery-ui.js"></script>
+
+
+<style>
+.navbar-default{font-weight:bold;padding-top:15px;padding-bottom:15px;border:0;margin-radius:0;font-size:16px;letter-spacing:4}
+.navbar.nav li a:hover{color:#FF3300;}
+.nav-right{margin-left:40%}
+.im{ height:400px; width:100%; background-image:url(img/orm2.jpg); margin-top:-60px}
+.about{background-color:#66FFFF}
+.div3{ 
+ background:url(img/ps1.jpg) no-repeat center fixed;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ background-size:cover;
+ background-color:#o60;
+ color:#000000;
+ text-align:center;
+ text-shadow:0 1px 3px rgba(0,0,0,.5);}
+ .se{transition:1.5s}
+ .se:hover{ transform:scale(1.2); color:#FF6633}
+li:hover{ color:#66FF99; background-color:#FF9933}
+li{transition:1.5s}
+ li:hover{ transform:scale(1.2)}
+ .team{transition:1.5s}
+ .team:hover{ transform:scale(1.2)}
+ #team:hover{ color:#3366FF}
+ td{ color:#ffffff}
+ #contact{ background-color:#000000}
+ #name:hover{ background-color:#00CCFF;}
+  td:hover{ color:#000000;}
+  #contact{ background-color:#FFFFFF}
+  .address{ background-color:#000000}
+ 
+ #image1:hover{ opacity:0.5;
+  filter: alpha ( opacity=50);}
+  .data{ background-color:#FFFFFF}
+ 
+
+</style>
+<script> 
+$(document).ready(function(){
+    $("#us").click(function(){
+        $("#contact").slideToggle("slow");
+    });
+});
+</script>
+<script> 
+$(document).ready(function(){
+    $("#features").click(function(){
+        $("#styles").slideToggle("slow");
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+
+<!--nav open-->
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<button class="navbar-toggle bt" data-toggle="collapse" data-target="#archonz">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button>
+
+
+</div>
+<div class="collapse navbar-collapse" id="archonz">
+<ul class="nav navbar-nav nav-right">
+<li id="menu"><a href="#home">HOME</a></li>
+<li  id="menu"><a href="#about">ABOUT US</a></li>
+<li  id="menu"><a href="#services">PROJECTS</a></li>
+<li  id="features"><a href="#">FEATURES</a></li>
+
+<li  id="us"><a href="#">CONTACT US</a></li>
+</ul></div></nav>
+<!--nav end-->
+<!-- contact us-->
+ <div class="container-fluid text-center margin" id="contact" style="display:none;">
+ <div class="container">
+  <h2>Contact form</h2>
+  <form >
+    <div class="form-group">
+     <h4 align="left"> <label for="name">Name:</label></h4>
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="name">
+    </div>
+    <div class="form-group">
+      <h4 align="left"><label for="email">Email:</label><h4>
+      <input type="email" class="form-control" id="pwd" placeholder="Enter password" name="email">
+    </div>
+    <div class="form-group">
+    <h4 align="left"><label for="message">Message:</label></h4>
+    <textarea class="form-control" placeholder="Enter message" type="text" rows="8" name="message"></textarea></div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" onclick="enter()"> Submit</button>
+  </form>
+</div>
+
+
+ <br /><br /><br />
+ </div>
+ <!-- end contact us-->
+
+<!--banner-->
+<div class="container-fluid im" id="home">
+<center>
+<h2 style=" text-shadow: 2px 1px #80AAC7;"><font color="#FFFFFF" size="+4"> <BR />SURESH PROJECTS</font> </h2>
+
+
+<br /><br /><br /><br />
+<div style="color:#FFFFFF;"><a href="#contact me"><button class="btn btn-primary" style="background-color:#00CCCC;">MADE WITH <span class=" glyphicon glyphicon-heart"></span></button></a></div></center>
+
+
+</div>
+<!-- banner-->
+
+
+<!-- about us-->
+<div class="container-fluid about" id="about">
+<h1 align="center" style=" text-shadow: 2px 1px #999999"><b>About Us</b></h1>
+<center>
+<p  style=" font-size:20px">
+Eevery business has a begining, and this is where you talk about yours. People want to know what
+</p><p style=" font-size:20px">
+opportunity you saw or how your passion led to the creation of something new.
+</p>
+</center></div>
+
+<!-- about us end-->
+<!-- tabs-->
+
+  <div class="container-fluid div3" id="services">
+  <center><h1 class="se"> Services</h1></center>
+  
+  <div class="cantainer">
+ 
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#sp">Traning</a></li>
+   
+    <li><a data-toggle="tab" href="#menu1">Projects </a></li>
+   
+  </ul>
+
+  
+  <div class="tab-content">
+    <!-- tab1-->
+   
+    <div id="sp" class="tab-pane fade in active">
+    
+    <div class="row">
+    <br />
+    
+    <div class=" col-sm-6">
+    <img  src="img/home2_yimmc14h.jpg" height="200px" width="300px"  class=" img-responsive img-thumbnail" />
+    </div>
+   
+    <div class=" col-sm-6">
+    <br /><br />
+    <p style=" color:#0033FF; text-shadow: 2px 1px #CCCCCC; font-size:21px">Glean new insights from a recent study that 
+    demonstrates the important connection between
+    employees and their organization's missions and
+    values. By instilling a sense of meaning into one's work,
+    creativity csn flourish and excellence delivered.</p>
+    <a href="#contact me"><button class="btn btn-primary"> more</button></a></div>
+    
+    
+    </div>
+    
+    <div class="row">
+    <div class=" col-sm-6">
+    <br /><br />
+    <p style=" color:#0033FF; text-shadow: 2px 1px #CCCCCC; font-size:21px">Glean new insights from a recent study that 
+    demonstrates the important connection between
+    employees and their organization's missions and
+    values. By instilling a sense of meaning into one's work,
+    creativity csn flourish and excellence delivered.</p>
+   <a href="#contact me"> <button class="btn btn-primary"> more</button></a>
+    </div>
+    <div class=" col-sm-6">
+    <img  src="img/Slider1-2.jpg" class="img-responsive img-thumbnail" height="200px" width="300px"/>
+    </div>
+     </div>
+     <br /><br />
+     </div>
+   <!--tab1 end-->
+   <!-- tab2-->
+   
+    <div id="menu1" class="tab-pane fade">
+    <div class=" container "><br /><br />
+   
+    <div class="row">
+    
+    <div class=" col-sm-12">
+  <a href="suresh2.HTML"> <p  style=" color:#000000; font-size:21px" class="text-justify">Home automation using DHT11 interfacing with ESP32 & Blink App </p></a><br />
+ <a href="#"> <p  style=" color:#000000; font-size:21px" class="text-justify"> A Smart System Connecting E-Health Sensors And The Cloud </p></a>
+    </div>
+     </div>
+     <br /><br />
+     
+     
+       
+    </div></div>
+    <!--tab2 end-->
+   
+  </div>
+</div>
+
+ 
+</div>
+   
+
+
+<!--tabs-->
+<hr />
+
+<div class="container-fluid">
+<h1 id="team"><center><b><u>Meet the team</u></b></center></h1>
+<br /><br />
+<div class=" container">
+<div class="row">
+<div class="col-sm-4"><a href="img/ph5.jpg" ><img src="img/ph5.jpg" class="img-responsive team img-thumbnail" id="image1"  /></a>
+<h2><center>Founder &CEO</center></h2>
+</div>&nbsp;
+<div class="col-sm-4"><a href="img/ph4.jpg"><img src="img/ph4.jpg" class="img-responsive team img-thumbnail" id="image1" /></a>
+<h2><center>CEO</center></h2></div>&nbsp;
+<div class="col-sm-4"><a href="img/ph3.jpg"><img src="img/ph3.jpg" class="img-responsive team img-thumbnail" id="image1" /></a>
+<h2><center>Vice President</center></h2></div>&nbsp;
+
+</div></div></div>
+<hr />
+<!--map-->
+<div class="container-fluid">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.192022812054!2d78.39297791412012!3d17.498344688012192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f20d8e1f3b%3A0x7f95c51b1504bc62!2sHMT+Hills+Rd%2C+Addagutta+Society%2C+Jal+Vayu+Vihar%2C+Kukatpally%2C+Hyderabad%2C+Telangana+500072!5e0!3m2!1sen!2sin!4v1494345254068" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<!--map end-->
+
+
+ <!--contact-->
+ 
+ 
+ 
+ <div class="container-fluid text-center margin address"  id="contact me" >
+ 
+ <div class="container text-center">
+ <font color="#ffffff"><h2 style="text-shadow: 2px 1px #9922ff;">contact us</h2><br />
+ <table class="table">
+ <tbody>
+ <tr id="name"><td>company</td><td>Suresh Projects Pvt.Ltd</td></tr>
+ <tr id="name"><td>Mail.id</td><td>suresh.sam.241@gmail.com</td></tr>
+ <tr id="name"><td>Mobile number</td><td>7794854541</td></tr>
+ <tr id="name"><td>Address</td><td>Plot no 246/A, VBR Estates,<br />
+ Flat no 302,street no 11,<br />
+ Sreenivasa Nagar,HMT Hills Road, Addagutta Scocitey,<br />
+Kukatpally, Hyderabad,<br />
+Telangana-5000085.</td></tr>
+
+
+ <tr id="name"><td>Domain</td><td>www.suresh projects.co.in</td></tr></tbody></table></font></div></div>
+ <!--contact end-->
+
+
+ 
+<!--FOTER-->
+
+<div class="footer-copyright" style="background-color:#330099">
+
+<div  col-md-12><center><a href="#home">All copy rights@swapna2020</a></center></div>
+</div>
+
+
+
+
+</body>
+</html>
